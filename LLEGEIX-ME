@@ -1,0 +1,45 @@
+************ INSTRUCCIONES EJECUTADAS EN EL TERMINAL EN DIFERENTES APARTADOS *************
+
+1 - a) git branch branca00
+1 - b) git checkout branca00
+1 - c) git status
+-------------------------------------------------
+
+5 - git checkout main
+5 - git status
+5 - git log main
+-------------------------------------------------
+
+7 - git checkout branca00
+7 - geany Prjava02.java
+-------------------------------------------------
+
+10 - b) git merge branca00
+-------------------------------------------------
+
+12 - git push origin main
+-------------------------------------------------
+
+14 - a) git push origin branca01
+
+
+
+
+***************** RESPUESTAS A ALGUNAS PREGUNTAS DE DIFERENTES APARTADOS *****************
+
+5 - Respuesta: La diferencia que hay entre este historial de la rama "main" con respecto al historial de la otra rama "branca00", es que en este historial de la rama "main", no se encuentra ni aparece el último commit que he realizado con la modificación del archivo Prjava02.java en la línea 28, y en cambio, en la rama "branca00", si se encuentra el commit que he realizado con la actualización del archivo Prjava02.java en la línea 28. Esto es debido a que he realizado este commit en la rama "branca00", de modo que ese commit se ha realizado y se ha guardado en esa rama. Al acceder de nueva a la rama principal "main", no aparece este commit por lo que acabo de comentar, ya que al haberse realizado en la otra rama (branca00), ese commit se ha guardado en esa rama, pero no se guardado ni realizado en la rama principal "main". Esta es la diferencia entre los historiales de las 2 ramas.
+-------------------------------------------------
+
+6 - Respuesta: Desde la rama "main" he intentado modificar el archivo 'Prjava02.java' desde geany con el comando "geany Prjava02.java". Al intentar hacer esta modificación, no he podido ver la última línea que he añadido en el último commit de la rama "branca00". 
+Esto es debido a que como comenté un poco por encima en la pregunta 5, esta modificación al archivo 'Prjava02.java' en la cual he añadido una línea nueva, la he realizado desde la rama "branca00", y el commit con esta modificación se ha guardado en esta rama "branca00". Al acceder de nuevo a la rama principal "main", he comprobado como este commit no existe, no aparece, ya que no realicé el commit con esta modificación del archivo en esta rama, y por eso no aparece. Es por este motivo que en la rama “main” el archivo se encuentra tal y como estaba antes, ya que en esta rama el archivo no ha sido modificado.
+-------------------------------------------------
+
+7 - Respuesta: Sí, desde la rama “branca00” si puedo ver la última línea que añadí después de la línea 28 en el archivo 'Prjava02.java'.
+Esto es debido a que es en esta rama donde realicé la modificación de este archivo, y también es en esta rama donde realicé el commit con esta respectiva modificación. Al haber realizado el commit desde la rama “branca00” desde donde me encuentro en este punto, puedo ver esta modificación sin ningún tipo de problema, ya que como ya he comentado, es en esta rama donde he modificado este archivo, y por ello lo encuentro con esta modificación (la modificación se guardó en esta rama).  Esta breve explicación se relaciona y corrobora también la respuesta de la pregunta 6, donde expliqué porque en la rama “main” no podía ver esta modificación.
+-------------------------------------------------
+
+12 - c) Respuesta: Tal y como he podido comprobar desde GitHub, únicamente se ha actualizado la rama “main”. 
+Esto es debido a que en el momento de hacer el push del proyecto al repositorio remoto, únicamente he hecho el push de la rama “main”, es por ello que únicamente se ha actualizado esta rama, ya que solo he hecho el push de esta rama.
+-------------------------------------------------
+
+14 - c) Respuesta: La rama “branca01” está a 1 commit de distancia por delante de la rama “main” (This branch is 1 commit ahead of main).
